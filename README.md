@@ -4,7 +4,7 @@ A Python script to list users from Azure Active Directory (Azure AD) using Micro
 
 ## Prerequisites
 
-- Python 3.8 or higher
+- Python 3.12 or higher
 - Azure AD application with appropriate permissions
 - Required Python packages (see `requirements.txt`)
 
@@ -24,7 +24,6 @@ A Python script to list users from Azure Active Directory (Azure AD) using Micro
 3. Create a `.env` file in the root directory with your Azure AD credentials:
    ```
    CLIENT_ID=your_client_id
-   CLIENT_SECRET=your_client_secret
    TENANT_ID=your_tenant_id
    ```
 
